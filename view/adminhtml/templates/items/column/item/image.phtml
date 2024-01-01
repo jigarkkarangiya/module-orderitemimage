@@ -1,0 +1,16 @@
+<?php
+/**
+ * Copyright © Jigar K Karangiya. All rights reserved.
+ */
+?>
+<?php /** @var \Jigar\OrderItemImage\Block\Adminhtml\Sales\Items\Column\Item\Image $block */ ?>
+<?php if ($_item = $block->getItem()) : ?>
+    <?php $imageHelper = $block->getItemImageHelper($_item); ?>
+    <?php if ($imageHelper) : ?>
+        <img src="<?= $block->escapeUrl($imageHelper->resize(90, 90)->getUrl()); ?>"
+             height="90"
+             alt="<?= $_item->getName(); ?>"
+             align="left"
+             style="padding-right:2px;" />
+    <?php endif; ?>
+<?php endif; ?>
