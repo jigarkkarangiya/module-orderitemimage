@@ -5,7 +5,7 @@
 ![Order Item Image](https://img001.prntscr.com/file/img001/9uOYfDwzSX-LSOePg_JPtA.jpg)
 
 
-    ``jigar/module-orderitemimage``
+    composer require jigar/module-orderitemimage
 
  - [Main Functionalities](#markdown-header-main-functionalities)
  - [Installation](#markdown-header-installation)
