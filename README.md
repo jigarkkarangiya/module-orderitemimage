@@ -1,4 +1,6 @@
-# Mage2 Module Jigar OrderItemImage
+# Order Item Image - Magento 2 Extension by Jigar Karangiya
+![Order Item Image](https://img001.prntscr.com/file/img001/9uOYfDwzSX-LSOePg_JPtA.jpg)
+
 
     ``jigar/module-orderitemimage``
 
@@ -10,10 +12,9 @@
 
 
 ## Main Functionalities
-Display product image in sales order view page in Magento 2 admin panel
+This extension simply adds product images to the sales order view page in the Magento 2 admin panel.
 
 ## Installation
-\* = in production please use the `--keep-generated` option
 
 ### Type 1: Zip file
 
@@ -36,12 +37,11 @@ Display product image in sales order view page in Magento 2 admin panel
 
 
 ## Configuration
-
-
+- No configurations are required in this release (1.0.*)
 
 
 ## Specifications
-
+- Show product images in sales order view item grid
 
 
 
