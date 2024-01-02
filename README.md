@@ -1,4 +1,7 @@
 # Order Item Image - Magento 2 Extension by Jigar Karangiya
+
+<h3>Magento 2 Module Which adds Order Item Images in the sales order view grid in the admin panel.</h3>
+
 ![Order Item Image](https://img001.prntscr.com/file/img001/9uOYfDwzSX-LSOePg_JPtA.jpg)
 
 
@@ -8,7 +11,6 @@
  - [Installation](#markdown-header-installation)
  - [Configuration](#markdown-header-configuration)
  - [Specifications](#markdown-header-specifications)
- - [Attributes](#markdown-header-attributes)
 
 
 ## Main Functionalities
@@ -26,10 +28,8 @@ This extension simply adds product images to the sales order view page in the Ma
 ### Type 2: Composer
 
  - Make the module available in a composer repository for example:
-    - private repository `repo.magento.com`
     - public repository `packagist.org`
-    - public github repository as vcs
- - Add the composer repository to the configuration by running `composer config repositories.repo.magento.com composer https://repo.magento.com/`
+    - public GitHub repository as vcs
  - Install the module composer by running `composer require jigar/module-orderitemimage`
  - enable the module by running `php bin/magento module:enable Jigar_OrderItemImage`
  - apply database updates by running `php bin/magento setup:upgrade`\*
@@ -42,10 +42,7 @@ This extension simply adds product images to the sales order view page in the Ma
 
 ## Specifications
 - Show product images in sales order view item grid
-
-
-
-## Attributes
+- No configurations required, Plug & Play !!
 
 
 
